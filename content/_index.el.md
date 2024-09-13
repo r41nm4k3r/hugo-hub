@@ -1,5 +1,5 @@
 ---
-title: NnyX
+title: NnyX Hub
 # menu:
 #   main:
 #     name: Αρχική
