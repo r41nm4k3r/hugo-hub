@@ -60,7 +60,7 @@ sequenceDiagram
 {{</* /mermaid */>}}
 ```
 
-{{< mermaid >}}
+{{</* mermaid */>}}
 sequenceDiagram
     participant Alice
     participant Bob
