@@ -7,7 +7,7 @@ noindex: false
 featured: true
 pinned: false
 # comments: false
-series:
+series: 
  - Examples
 categories:
  - Content
