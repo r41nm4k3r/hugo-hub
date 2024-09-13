@@ -1,18 +1,19 @@
 ---
-title: "图表"
+title: "Diagrams and Charts"
 date: 2023-11-26T16:36:24+08:00
 draft: false
-description: "本文将举例说明如何使用 Mermaid 制作图表。"
+description: "This article offers some examples about using Mermaid for diagramming and charting."
 noindex: false
 featured: true
 pinned: false
 # comments: false
 series:
- - 示例
+ - Examples
 categories:
- - 内容
+ - Content
 tags:
- - 图表
+ - Diagrams
+ - Charts
  - Mermaid
 images:
   - https://example-images.razonyang.com/flowchart.webp?width=1920&height=1280
@@ -21,7 +22,7 @@ authors:
   - HugoMods
 ---
 
-## 使用 Mermaid 代码块
+## Using Mermaid Code Block
 
 ````markdown
 ```mermaid
@@ -41,7 +42,7 @@ graph TD;
     C-->D;
 ```
 
-## 使用 Mermaid 短代码
+## Using Mermaid Shortcode
 
 ```markdown
 {{</* mermaid */>}}
@@ -73,7 +74,7 @@ sequenceDiagram
     Bob-->>John: Jolly good!
 {{< /mermaid >}}
 
-## 延伸阅读
+## Further Reading
 
-- [Mermaid 官网](https://mermaid.js.org/)
-- [Hugo Mermaid 模块](https://hugomods.com/docs/content/mermaid/)
+- [Mermaid official site](https://mermaid.js.org/)
+- [Hugo Mermaid module](https://hugomods.com/docs/content/mermaid/)
