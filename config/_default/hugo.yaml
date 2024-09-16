@@ -74,13 +74,3 @@ security:
 #    background_image:
 #      modern_format: webp
 
-params:
-  hb:
-    contact:
-      endpoint: ""
-      extra_fields:
-      - name: foo
-        type: hidden
-        value: bar
-      file: false
-      recaptcha_siekey: ""
