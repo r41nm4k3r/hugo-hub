@@ -17,15 +17,6 @@ hb:
       width: 12px
 #  background_image:
 #      modern_format: webp
-  contact:
-      endpoint: ""
-      extra_fields:
-      - name: foo
-        type: hidden
-        value: bar
-      file: false
-      recaptcha_siekey: ""
-
 
   # js_bundle_name: main # the JS bundle name.
   # css_bundle_name: main # the CSS bundle name.
