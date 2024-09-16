@@ -1,18 +1,18 @@
 ---
-title: "数学排版"
+title: "Math Typesetting"
 date: 2023-11-26T16:36:24+08:00
 draft: false
-description: "本文提供了一些通过 KaTeX 进行数学排版的示例。"
+description: "This article offers some examples about math typesetting via KaTeX."
 noindex: false
 featured: true
 pinned: false
 # comments: false
 series:
- - 示例
+ - Examples
 categories:
- - 内容
+ - Content
 tags:
- - 数学
+ - Math
  - KaTeX
 images:
   - https://example-images.razonyang.com/math.webp?width=1920&height=1280
@@ -21,7 +21,7 @@ authors:
   - HugoMods
 ---
 
-## 使用 KaTeX 代码块
+## Using KaTeX Code Block
 
 ````markdown
 ```katex
@@ -33,7 +33,7 @@ f(a,b,c) = (a^2+b^2+c^2)^3
 f(a,b,c) = (a^2+b^2+c^2)^3
 ```
 
-## 使用 KaTeX 短代码
+## Using KaTeX Shortcode
 
 ```markdown
 {{</* katex */>}}
@@ -45,7 +45,7 @@ f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
 f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
 {{< /katex >}}
 
-## 延伸阅读
+## Further Reading
 
-- [KaTeX 官网](https://katex.org/)
-- [Hugo KaTeX 模块](https://hugomods.com/docs/content/katex/)
+- [KaTeX official site](https://katex.org/)
+- [Hugo KaTeX module](https://hugomods.com/docs/content/katex/)
