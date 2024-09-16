@@ -14179,3 +14179,9 @@ body {
   background-color: rgba(var(--hb-body-bg-rgb), 0.75);
   background-blend-mode: multiply;
 }
+
+.form-floating.required > label::before {
+  color: red;
+  content: "*";
+  margin-right: 0.125rem;
+}

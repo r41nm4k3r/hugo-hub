@@ -28,6 +28,16 @@ main:
         className: text-primary
       description: The documentation.
 
+  - name: Contact Me
+    identifier: contact
+    weight: 200
+    params:
+      icon:
+        vendor: bs
+        name: envelope-at-fill
+        className: text-primary
+      description: Contact Me
+
   - name: GitHub
     parent: support
     url: https://github.com/r41nm4k3r

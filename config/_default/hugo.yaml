@@ -1,5 +1,5 @@
 #baseURL: https://main.nnyx.xyz/
-baseURL: https://nnyx-hub.netlify.app
+baseURL: http://localhost:1313
 title: NnyX Hub
 # Copyright, the {year} is the placeholder of this year.
 copyright: "Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved."
@@ -74,3 +74,13 @@ security:
 #    background_image:
 #      modern_format: webp
 
+params:
+  hb:
+    contact:
+      endpoint: ""
+      extra_fields:
+      - name: foo
+        type: hidden
+        value: bar
+      file: false
+      recaptcha_siekey: ""
