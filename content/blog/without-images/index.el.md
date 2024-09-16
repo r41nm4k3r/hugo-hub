@@ -1,5 +1,5 @@
 ---
-title: 不带图片的文章
+title: Example Post without Images
 featured: true
 date: 2022-09-10
 series:
