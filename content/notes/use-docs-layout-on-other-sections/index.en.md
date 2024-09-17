@@ -21,8 +21,7 @@ tags:
 images:
   - https://images.pexels.com/photos/1629212/pexels-photo-1629212.jpeg?auto=compress&cs=tinysrgb&w=1600
 authors:
-  - HB
-  - HugoMods
+  - Nny
 ---
 
 ## Backgrounds

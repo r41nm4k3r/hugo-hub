@@ -13,8 +13,7 @@ tags:
 images:
   - https://example-images.razonyang.com/hello.webp?width=1920&height=1280
 authors:
-  - HB
-  - HugoMods
+  - Nny
 ---
 
 We're proud to announce the first version (`v0.1.0`) of [HB cards theme](https://github.com/hbstack/theme-cards) is available now.

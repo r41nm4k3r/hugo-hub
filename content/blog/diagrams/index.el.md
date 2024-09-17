@@ -18,8 +18,7 @@ tags:
 images:
   - https://example-images.razonyang.com/flowchart.webp?width=1920&height=1280
 authors:
-  - HB
-  - HugoMods
+  - Nny
 ---
 
 ## Using Mermaid Code Block

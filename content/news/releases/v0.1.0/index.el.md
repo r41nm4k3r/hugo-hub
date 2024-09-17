@@ -12,6 +12,8 @@ categories:
 tags:
 images:
   - https://example-images.razonyang.com/hello.webp?width=1920&height=1280
+authors:
+  - Nny
 ---
 
 我们很荣幸地宣布，[HB卡片主题](https://github.com/hbstack/theme-cards) 的第一个版本（`v0.1.0`）现已发布。

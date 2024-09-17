@@ -17,8 +17,7 @@ tags:
 images:
   - https://example-images.razonyang.com/math.webp?width=1920&height=1280
 authors:
-  - HB
-  - HugoMods
+  - Nny
 ---
 
 ## Using KaTeX Code Block

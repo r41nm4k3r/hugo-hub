@@ -28,8 +28,6 @@ images:
 #         name: book
 #         color: '#e24d0e'
 authors:
-  - HB
-  - HugoMods
   - Nny
 ---
 

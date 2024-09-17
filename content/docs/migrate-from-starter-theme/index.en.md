@@ -28,8 +28,7 @@ images:
 #         name: book
 #         color: '#e24d0e'
 authors:
-  - HB
-  - HugoMods
+  - Nny
 ---
 
 You can migrate to cards theme from the [starter theme](https://github.com/hbstack/theme) effortlessly within two steps.
