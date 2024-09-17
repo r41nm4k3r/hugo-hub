@@ -59,6 +59,7 @@ hb:
       profile:
         title: NnyX Hub
         # description: Profile description other than site description.
+        avatar: /images/logo.gif
         avatar_size: 100
         company: NnyX
         location: Earth
