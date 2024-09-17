@@ -11,8 +11,6 @@ nav_icon:
   vendor: bootstrap
   name: cloud-download
   color: green
-
-
 series:
   - Docs
 
