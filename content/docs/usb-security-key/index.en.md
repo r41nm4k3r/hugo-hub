@@ -28,7 +28,7 @@ categories:
 authors: 
    - Nny
 ---
-<!--more-->
+
 
 ## Requirements
 
