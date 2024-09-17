@@ -4,9 +4,9 @@ description: "Sample article showcasing basic Markdown syntax and formatting for
 date: 2022-11-01T12:50:34+02:00
 draft: false
 noindex: false
-featured: true
+featured: false
 pinned: true
-nav_weight: 1
+nav_weight: 7
 nav_icon:
   vendor: bootstrap
   name: cloud-download
