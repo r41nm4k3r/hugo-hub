@@ -1,7 +1,16 @@
 ---
 title: "Create your own Linux usb security key"
 date: 2022-11-01T12:50:34+02:00
+draft: false
+noindex: false
+featured: true
+pinned: true
+nav_weight: 1
 description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+
+series:
+  - Docs
+  
 tags:
     - linux
     - usb
