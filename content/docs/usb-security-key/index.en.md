@@ -17,7 +17,7 @@ series:
 tags:
     - linux
     - usb
-    -security
+    - security
     - key
 
 categories:
