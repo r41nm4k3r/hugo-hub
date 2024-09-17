@@ -30,6 +30,7 @@ images:
 authors:
   - HB
   - HugoMods
+  - Nny
 ---
 
 We offers an example site for getting started with this theme.
