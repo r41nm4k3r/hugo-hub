@@ -11,6 +11,7 @@ nav_icon:
   vendor: bootstrap
   name: cloud-download
   color: green
+images: /images/usb-sec-key.jpg
 series:
   - Docs
 
