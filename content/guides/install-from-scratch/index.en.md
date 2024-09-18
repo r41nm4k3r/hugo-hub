@@ -13,7 +13,7 @@ nav_icon:
   name: cloud-download
   color: green
 series:
-  - Docs
+  - Guides
 categories:
 tags:
   - Installation

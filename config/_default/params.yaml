@@ -35,7 +35,7 @@ hb:
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
       _color: true # when false, remove the color of social icons.
-      github: hbstack
+      github: r41nm4k3r
       twitter: razonyang
       rss: true
       mastodon: https://techhub.social/@hbstack
@@ -104,7 +104,7 @@ hb:
       featured_posts: 5 # the number of the featured posts, 0 means disabled.
       pinned_posts_position: "list"
       main_sections: # leave it empty to include all regular pages.
-        - docs
+        - guides
         - blog
         - news
     giscus:

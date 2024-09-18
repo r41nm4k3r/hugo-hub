@@ -1,5 +1,5 @@
 ---
-title: Docs
+title: Guides
 description: The example of docs layout.
 menu:
   main:

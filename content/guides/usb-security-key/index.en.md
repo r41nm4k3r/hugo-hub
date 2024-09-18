@@ -14,7 +14,7 @@ nav_icon:
 images: 
   - /images/usb-sec-key.jpg
 series:
-  - Docs
+  - Guides
 
 tags:
     - linux

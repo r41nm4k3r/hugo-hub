@@ -13,7 +13,7 @@ nav_icon:
   name: arrow-clockwise
   className: text-primary
 series:
-  - Docs
+  - Guides
 categories:
 tags:
   - Migration
