@@ -6,7 +6,7 @@ date: 2023-12-01T11:47:31+08:00
 draft: false
 noindex: false
 featured: true
-pinned: false
+pinned: true
 nav_weight: 2
 nav_icon:
   vendor: bootstrap
