@@ -1,7 +1,7 @@
 main:
   - identifier: blog
     name: Μπλογκ
-    weight: 1
+    weight: 4
     params:
       icon:
         vendor: fas
@@ -20,7 +20,7 @@ main:
   - name: Docs
     parent: support
     url: https://hbstack.dev/
-    weight: 2
+    weight: 1
     params:
       icon:
         vendor: bs
