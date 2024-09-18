@@ -68,8 +68,8 @@ hb:
           mastodon: https://techhub.social/@hbstack
           rss: true
       posts:
-        recent_count: 5 # the number of recent posts.
-        featured_count: 5 # the number of featured posts.
+        recent_count: 7 # the number of recent posts.
+        featured_count: 7 # the number of featured posts.
         style: pills # pills, tabs or underline.
         list_style: slide # slide or vertical.
         fill: true
