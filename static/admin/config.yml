@@ -24,9 +24,9 @@ collections:
         name: blog
         nested:
           depth: 1000
-      docs:
-        create: true
-        fields:
+  docs:
+    create: true
+    fields:
         - label: Title
           name: title
           widget: string
