@@ -68,9 +68,3 @@ security:
       - ^HUGO
       - CI$
       - PWD
-
-#params:
-#  hb:
-#    background_image:
-#      modern_format: webp
-
