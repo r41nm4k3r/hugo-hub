@@ -50,6 +50,7 @@ require (
 	github.com/hbstack/hb v0.15.3 // indirect
 	github.com/hbstack/header v0.15.0 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.26 // indirect
+	github.com/hbstack/header/modules/news v0.3.1 // indirect
 	github.com/hbstack/header/modules/search v0.1.37 // indirect
 	github.com/hbstack/header/modules/socials v0.2.2 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.5.2 // indirect
@@ -87,7 +88,7 @@ require (
 	github.com/hugomods/icons/vendors/feather v0.2.5 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.8 // indirect
 	github.com/hugomods/icons/vendors/mdi v0.3.6 // indirect
-	github.com/hugomods/icons/vendors/simple-icons v1.0.52 // indirect
+	github.com/hugomods/icons/vendors/simple-icons v1.0.53 // indirect
 	github.com/hugomods/icons/vendors/tabler v0.15.43 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/images v0.11.2 // indirect
@@ -104,7 +105,7 @@ require (
 	github.com/hugomods/seo/modules/translations v0.1.1 // indirect
 	github.com/hugomods/seo/modules/twitter-cards v0.1.1 // indirect
 	github.com/hugomods/shortcodes v0.22.0 // indirect
-	github.com/hugomods/simple-icons v13.8.0+incompatible // indirect
+	github.com/hugomods/simple-icons v13.10.0+incompatible // indirect
 	github.com/hugomods/snackbar v0.1.2 // indirect
 	github.com/hugomods/workbox v0.1.0 // indirect
 	github.com/jakearchibald/idb v8.0.0+incompatible // indirect
