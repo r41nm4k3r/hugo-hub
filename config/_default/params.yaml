@@ -15,8 +15,14 @@ hb:
       thumb_bg: '#909294'
       track_bg: '#f8f9fa'
       width: 12px
+  news:
+    limit: 5
+    icon_name: bell-fill
+    icon_vendor: bootstrap
+    date_format: :date_full
 #  background_image:
 #      modern_format: webp
+
 
   # js_bundle_name: main # the JS bundle name.
   # css_bundle_name: main # the CSS bundle name.
