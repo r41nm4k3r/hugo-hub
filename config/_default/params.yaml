@@ -19,7 +19,7 @@ hb:
     limit: 5
     icon_name: bell-fill
     icon_vendor: bootstrap
-    date_format: :date
+#    date_format: :date_full
 #  background_image:
 #      modern_format: webp
 
