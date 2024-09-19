@@ -42,7 +42,6 @@ hb:
     socials:
       _color: true # when false, remove the color of social icons.
       github: r41nm4k3r
-      twitter: razonyang
       rss: true
       mastodon: https://techhub.social/@hbstack
   blog:
