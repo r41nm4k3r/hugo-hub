@@ -11,7 +11,7 @@ collections:
   - name: blog
     label: Blog
     label_singular: post
-    path: "{{slug}}/index"
+    path: "{{slug}}/index.en"
     folder: content/blog
     create: true
     filter: {field: visibleInCMS, value: true}
@@ -26,7 +26,7 @@ collections:
   - name: "guides" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Guides" # Used in the UI, ie.: "New Post"
     folder: "content/guides" # The path to the folder where the documents are stored
-    path: "{{slug}}/index" # Each document is inside a folder with the slug name.
+    path: "{{slug}}/index.en" # Each document is inside a folder with the slug name.
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
