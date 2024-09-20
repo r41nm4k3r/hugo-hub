@@ -41,11 +41,14 @@ collections:
       widget: "string"
     - name: "description" 
       widget: "text"
-    - label: "Time"
-      name: "time" 
+    - label: "Start time"
+      name: "start"
       widget: "datetime"
-      date_format: "DD.MM.YYYY"
       default: "{{now}}"
+      date_format: "DD.MM.YYYY" # e.g. 24.12.2021
+      time_format: "HH:mm" # e.g. 21:07
+      format: "LLL"
+      picker_utc: false
     - label: "Image"
       name: "image"
       widget: "image"
