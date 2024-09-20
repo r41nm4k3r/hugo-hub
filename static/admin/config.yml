@@ -16,7 +16,7 @@ collections:
     label: Blog
     label_singular: blog
     folder: content/blog
-    path: "{{slug}}/index.en"
+    path: "{{slug}}/index"
     create: true
     filter: {field: visibleInCMS, value: true}
     fields: [
@@ -30,7 +30,7 @@ collections:
     label: Guides
     label_singular: guides
     folder: content/guides
-    slug: 'index.en'
+    slug: 'index'
     path: '{{title}}/{{slug}}'
     create: true
     filter: {field: visibleInCMS, value: true}
