@@ -31,7 +31,7 @@ collections:
     label_singular: guides
     folder: content/guides
     slug: 'index'
-    path: '{{title}}/{{slug}}'
+    path: '{{title}}/{{slug}}.en'
     create: true
     filter: {field: visibleInCMS, value: true}
     fields: [
