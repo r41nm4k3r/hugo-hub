@@ -35,14 +35,29 @@ collections:
     path: '{{title}}/{{slug}}.en'
     create: true
     filter: {field: visibleInCMS, value: true}
-    fields: [
-      {name: title, widget: string},
-      {name: description, widget: text},
-      {name: time, widget: datetime, date_format: "DD.MM.YYYY", default: '{{now}}'},
-      {name: image, widget: image, required: false},
-      {name: body, widget: markdown},
-      {name: visibleInCMS, widget: hidden, default: true}
-      ]
+    fields: 
+    - label: "Title"
+      name: "title" 
+      widget: "string"
+    - name: "description" 
+      widget: "text"
+    - label: "Time"
+      name: "time" 
+      widget: "datetime"
+      date_format: "DD.MM.YYYY"
+      default: "{{now}}"
+    - label: "Image"
+      name: "image"
+      widget: "image"
+      required: false
+    - label: "Body"
+      name: "body"
+      widget: "markdown"
+    - label: "visible"
+      name: "visibleInCMS" 
+      widget: "hidden"
+      default: true
+
 #  - name: "blog" # Used in routes, e.g., /admin/collections/blog
 #    label: "Blog" # Used in the UI
 #    folder: "content/blog" # The path to the folder where the documents are stored
