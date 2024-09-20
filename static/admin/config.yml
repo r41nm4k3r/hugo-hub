@@ -22,6 +22,7 @@ collections:
     fields: [
       {name: title, widget: string},
       {name: description, widget: text},
+      {name: image, widget: image, required: false},
       {name: body, widget: markdown},
       {name: visibleInCMS, widget: hidden, default: true}
       ]
