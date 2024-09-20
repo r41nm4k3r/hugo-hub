@@ -10,7 +10,7 @@ search: true
 collections:
   - name: blog
       label: Blog
-      label_singular: post
+      label_singular: blog
       folder: content/blog
       create: true
       filter: {field: visibleInCMS, value: true}
