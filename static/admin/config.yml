@@ -24,6 +24,7 @@ collections:
       {name: description, widget: text},
       {name: image, widget: image, required: false},
       {name: body, widget: markdown},
+      {name: start, widget: start, date_format: "DD.MM.YYY" },
       {name: visibleInCMS, widget: hidden, default: true}
       ]
   - name: guides
@@ -37,6 +38,7 @@ collections:
     fields: [
       {name: title, widget: string},
       {name: description, widget: text},
+      {name: start, widget: start, date_format: "DD.MM.YYY" },
       {name: image, widget: image, required: false},
       {name: body, widget: markdown},
       {name: visibleInCMS, widget: hidden, default: true}
