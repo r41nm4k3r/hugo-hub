@@ -11,13 +11,16 @@ collections:
   - name: blog
     label: Blog
     label_singular: post
+    path: "{{slug}}/index"
     folder: content/blog
     create: true
     filter: {field: visibleInCMS, value: true}
     fields: [
       {name: title, widget: string},
       {name: description, widget: text},
+      {name: date, widget: datetime},
       {name: body, widget: markdown},
+      {name: thumbnail, widget: image},
       {name: visibleInCMS, widget: hidden, default: true}
     ]
 
