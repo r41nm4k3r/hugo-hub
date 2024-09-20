@@ -6,6 +6,7 @@ slug:
   encoding: "ascii"
   clean_accents: true
   sanitize_replacement: "."
+
 # These lines should *not* be indented
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
@@ -26,8 +27,21 @@ collections:
       {name: body, widget: markdown},
       {name: visibleInCMS, widget: hidden, default: true}
       ]
-
-
+  - name: guides
+    label: Guides
+    label_singular: guides
+    folder: content/guides
+    path: "{{title}}/'index.en.md'"
+    create: true
+    filter: {field: visibleInCMS, value: true}
+    fields: [
+      {name: title, widget: string},
+      {name: description, widget: text},
+      {name: date, widget: datetime},
+      {name: image, widget: image, required: false},
+      {name: body, widget: markdown},
+      {name: visibleInCMS, widget: hidden, default: true}
+      ]
 #  - name: "blog" # Used in routes, e.g., /admin/collections/blog
 #    label: "Blog" # Used in the UI
 #    folder: "content/blog" # The path to the folder where the documents are stored
