@@ -24,7 +24,7 @@ collections:
       {name: description, widget: text},
       {name: image, widget: image, required: false},
       {name: body, widget: markdown},
-      {name: time, widget: datetime, date_format: "DD.MM.YYY", time_format: "HH.MM" },
+      {name: time, widget: datetime, date_format: "DD.MM.YYYY", time_format: "HH.MM" },
       {name: visibleInCMS, widget: hidden, default: true}
       ]
   - name: guides
@@ -38,7 +38,7 @@ collections:
     fields: [
       {name: title, widget: string},
       {name: description, widget: text},
-      {name: time, widget: datetime, date_format: "DD.MM.YYY", default: '{{now}}'},
+      {name: time, widget: datetime, date_format: "DD.MM.YYYY", default: '{{now}}'},
       {name: image, widget: image, required: false},
       {name: body, widget: markdown},
       {name: visibleInCMS, widget: hidden, default: true}
