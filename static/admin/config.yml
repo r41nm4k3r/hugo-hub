@@ -24,7 +24,7 @@ collections:
       {name: description, widget: text},
       {name: image, widget: image, required: false},
       {name: body, widget: markdown},
-      {name: time, widget: datetime, date_format: "DD.MM.YYY", time_format: "HH.MM", format: LLL, default: {{now}} },
+      {name: time, widget: datetime, date_format: "DD.MM.YYY", time_format: "HH.MM", format: LLL, picker_utc: false},
       {name: visibleInCMS, widget: hidden, default: true}
       ]
   - name: guides
