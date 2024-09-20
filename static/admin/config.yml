@@ -5,7 +5,6 @@ backend:
 slug:
   encoding: "ascii"
   clean_accents: true
-  sanitize_replacement: "."
 
 # These lines should *not* be indented
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
