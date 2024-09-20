@@ -20,7 +20,7 @@ collections:
       {name: description, widget: text},
       {name: date, widget: datetime},
       {name: body, widget: markdown},
-      {name: thumbnail, widget: image},
+      {name: thumbnail, widget: image, required: false},
       {name: visibleInCMS, widget: hidden, default: true}
     ]
 
