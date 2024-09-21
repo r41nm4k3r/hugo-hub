@@ -39,8 +39,6 @@ collections:
     - label: "Title"
       name: "title" 
       widget: "string"
-    - name: "description" 
-      widget: "text"
     - label: "Start time"
       name: "start"
       widget: "datetime"s
