@@ -24,37 +24,10 @@ collections:
       {name: description, widget: text},
       {name: image, widget: image, required: false},
       {name: body, widget: markdown},
-      {name: time, widget: datetime, date_format: "DD.MM.YYYY", time_format: "HH.mm", format: LLL, default: "{{now}}"},
+#      {name: time, widget: datetime, date_format: "DD.MM.YYYY", time_format: "HH.mm", format: LLL, default: "{{now}}"},
       {name: visibleInCMS, widget: hidden, default: true}
       ]
-  - name: guides
-    label: Guides
-    label_singular: guides
-    folder: content/guides
-    slug: 'index'
-    path: '{{title}}/{{slug}}.en'
-    create: true
-    filter: {field: visibleInCMS, value: true}
-    fields: 
-    - label: "Title"
-      name: "title" 
-      widget: "string"
-    - label: "Start time"
-      name: "start"
-      widget: "datetime"s
-      date_format: "DD.MM.YYYY" # e.g. 24.12.2021
-      time_format: "HH:mm" # e.g. 21:07
-    - label: "Image"
-      name: "image"
-      widget: "image"
-      required: false
-    - label: "Body"
-      name: "body"
-      widget: "markdown"
-    - label: "visible"
-      name: "visibleInCMS" 
-      widget: "hidden"
-      default: true
+
 
 #  - name: "blog" # Used in routes, e.g., /admin/collections/blog
 #    label: "Blog" # Used in the UI
