@@ -14,19 +14,30 @@ search: true
 collections:
   - name: blog
     label: Blog
-    label_singular: blog
+    label_singular: post
+    path: "{{slug}}/index.en"
     folder: content/blog
-    path: "{{slug}}/index"
     create: true
     filter: {field: visibleInCMS, value: true}
     fields: [
       {name: title, widget: string},
       {name: description, widget: text},
-      {name: image, widget: image, required: false},
+      {name: date, widget: datetime},
       {name: body, widget: markdown},
-#      {name: time, widget: datetime, date_format: "DD.MM.YYYY", time_format: "HH.mm", format: LLL, default: "{{now}}"},
+      {name: thumbnail, widget: image, required: false},
       {name: visibleInCMS, widget: hidden, default: true}
-      ]
+    ]
+  - name: "guides" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Guides" # Used in the UI, ie.: "New Post"
+    folder: "content/guides" # The path to the folder where the documents are stored
+    path: "{{slug}}/index.en" # Each document is inside a folder with the slug name.
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Intro Blurb", name: "description", widget: "text"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
 
 #  - label: "Guides"
 #    name: guides
