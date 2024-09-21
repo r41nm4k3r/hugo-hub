@@ -1,8 +1,8 @@
 ---
-title: Test Blog
+title: Test Blogging time
 description: test blog
 date: 2024-09-21T19:46:00.000Z
-thumbnail: 77-771584_fail2ban-nginx-hd-png-download.png
+thumbnail: ""
 visibleInCMS: true
 ---
 awdfasfscdasd
