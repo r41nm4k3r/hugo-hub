@@ -44,7 +44,6 @@ collections:
     - label: "Start time"
       name: "start"
       widget: "datetime"
-      default: "{{now}}"
       date_format: "DD.MM.YYYY" # e.g. 24.12.2021
       time_format: "HH:mm" # e.g. 21:07
     - label: "Image"
