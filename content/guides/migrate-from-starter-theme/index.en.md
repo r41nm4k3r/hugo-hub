@@ -15,7 +15,6 @@ nav_icon:
 series:
   - Guides
 categories:
-tags:
   - Migration
 images:
   - https://example-images.razonyang.com/speed.webp?width=1920&height=1280

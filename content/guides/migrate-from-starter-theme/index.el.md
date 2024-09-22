@@ -1,6 +1,6 @@
 ---
-title: "从 HB 新手模板迁移"
-description: "本指南介绍如何从 HB 初始主题迁移到 HB 卡主题。"
+title: "Migrate from HB Starter Theme"
+description: "This guide shows how to migrate to the HB cards theme from the HB starter theme."
 # linkTitle:
 date: 2023-12-01T11:47:31+08:00
 draft: false
@@ -13,10 +13,9 @@ nav_icon:
   name: arrow-clockwise
   className: text-primary
 series:
-  - Οδηγοί
+  - Guides
 categories:
-tags:
-  - 迁移
+  - Migration
 images:
   - https://example-images.razonyang.com/speed.webp?width=1920&height=1280
 # menu:
@@ -31,13 +30,13 @@ authors:
   - Nny
 ---
 
-你可以毫不费力地从[新手主题](https://github.com/hbstack/theme)迁移至卡片主题。
+You can migrate to cards theme from the [starter theme](https://github.com/hbstack/theme) effortlessly within two steps.
 
-## 导入卡片主题模块
+## Import the Cards Theme Module
 
 {{< bs/alert danger >}}
 {{< markdownify >}}
-你需要将 `github.com/hbstack/theme-cards` 模块置于顶部，以确保卡片主题获得更高的优先权。
+You'll ve to put the module `github.com/hbstack/theme-cards` on the ___top___, to make sure that the cards theme gets higher priority.
 {{< /markdownify >}}
 {{< /bs/alert >}}
 
@@ -47,9 +46,9 @@ module:
     - path: github.com/hbstack/theme-cards
 {{< /bs/config-toggle >}}
 
-## 调整参数
+## Tweak Parameters
 
-若要使首页幻灯片占据整行，可以通过调整置顶文章的位置为 `list`。
+To make the carousel to take whole row on homepage, you'll need to tweak the position of pinned posts.
 
 {{< bs/config-toggle "params" >}}
 hb:
