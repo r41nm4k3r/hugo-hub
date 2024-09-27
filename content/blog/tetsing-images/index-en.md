@@ -7,5 +7,5 @@ visibleInCMS: true
 ---
 
 <audio controls="controls">
-    <source src="https://radio.nnyx.xyz/strea.opus">
+    <source src="https://radio.nnyx.xyz/strea.opus" type="audio/mpeg">
 </audio>
