@@ -5,4 +5,7 @@ date: 2024-09-21T09:10:00.000Z
 thumbnail: 77-771584_fail2ban-nginx-hd-png-download.png
 visibleInCMS: true
 ---
-.aksxdnfkasndfl
+
+<audio controls="controls">
+    <source src="https://radio.nnyx.xyz/strea.opus">
+</audio>
