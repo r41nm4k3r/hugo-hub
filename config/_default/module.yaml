@@ -70,3 +70,5 @@ imports:
   - path: github.com/hbstack/contact
   - path: github.com/hbstack/header/modules/news
   - path: github.com/hugomods/images
+  - path: github.com/gethinode/mod-lottie
+  - path: github.com/airbnb/lottie-web

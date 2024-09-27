@@ -6,8 +6,10 @@ require (
 	github.com/GoogleChrome/workbox v7.1.0+incompatible // indirect
 	github.com/KaTeX/KaTeX v0.16.11 // indirect
 	github.com/Templarian/MaterialDesign-SVG v7.4.47+incompatible // indirect
+	github.com/airbnb/lottie-web v5.12.2+incompatible // indirect
 	github.com/desandro/masonry v4.2.2+incompatible // indirect
 	github.com/feathericons/feather v4.29.2+incompatible // indirect
+	github.com/gethinode/mod-lottie v1.5.10 // indirect
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
 	github.com/hbstack/back-to-top v0.2.0 // indirect
@@ -88,8 +90,8 @@ require (
 	github.com/hugomods/icons/vendors/feather v0.2.5 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.8 // indirect
 	github.com/hugomods/icons/vendors/mdi v0.3.6 // indirect
-	github.com/hugomods/icons/vendors/simple-icons v1.0.53 // indirect
-	github.com/hugomods/icons/vendors/tabler v0.15.43 // indirect
+	github.com/hugomods/icons/vendors/simple-icons v1.0.54 // indirect
+	github.com/hugomods/icons/vendors/tabler v0.15.45 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/images v0.11.2 // indirect
 	github.com/hugomods/katex v0.3.3 // indirect
@@ -105,12 +107,12 @@ require (
 	github.com/hugomods/seo/modules/translations v0.1.1 // indirect
 	github.com/hugomods/seo/modules/twitter-cards v0.1.1 // indirect
 	github.com/hugomods/shortcodes v0.22.0 // indirect
-	github.com/hugomods/simple-icons v13.10.0+incompatible // indirect
+	github.com/hugomods/simple-icons v13.11.0+incompatible // indirect
 	github.com/hugomods/snackbar v0.1.2 // indirect
 	github.com/hugomods/workbox v0.1.0 // indirect
 	github.com/jakearchibald/idb v8.0.0+incompatible // indirect
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
-	github.com/tabler/tabler-icons v3.16.0+incompatible // indirect
+	github.com/tabler/tabler-icons v3.18.0+incompatible // indirect
 	github.com/twbs/bootstrap v5.3.3+incompatible // indirect
 	github.com/twbs/icons v1.11.3 // indirect
 )
